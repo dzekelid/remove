@@ -11,11 +11,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/google-tag-manager/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Tag Manager - Remove User
+  x-api-slug: accountsaccountidpermissionspermissionid-delete
+  description: Removes a user from the account, revoking access to it and all of its
+    containers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png
+  humanURL: https://developers.google.com/tag-manager/
+  baseURL: ://www.googleapis.com//tagmanager/v1
+  tags: Google APIs, Tags, Stack Network, API Service Provider, API Provider, Profiles,
+    Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/google-tag-manager/accountsaccountidpermissionspermissionid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.stackdriver.monitoring.api.gallery.streamdata.io

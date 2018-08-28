@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,22 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /conversations/{id}/remove_messages:
+    post:
+      summary: Delete a message
+      description: Delete a message.
+      operationId: delete-a-message
+      x-api-path-slug: conversationsidremove-messages-post
+      parameters:
+      - in: query
+        name: remove[]
+        description: Array of message ids to be deleted
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversations
+      - Id
+      - Remove
+      - Messages

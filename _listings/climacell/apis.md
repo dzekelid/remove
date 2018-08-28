@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ClimaCell API - Delete Alerts Alert
+  x-api-slug: alertsalert-id-delete
+  description: |-
+    ### Delete an Alert
+
+    Removes an alert with the ```alert_id``` from the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
+  humanURL: https://www.climacell.co
+  baseURL: https://api2.climacell.co//v2
+  tags: Weather, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/climacell/alertsalert-id-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clickatell.api.gallery.streamdata.io

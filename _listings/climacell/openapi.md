@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ClimaCell
 x-complete: 1
@@ -35,4 +34,3 @@ paths:
       - Weather
       - Alerts
       - Alert
----

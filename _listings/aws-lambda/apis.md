@@ -11,11 +11,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/aws-lambda/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lambda API - Delete Event Source Mapping
+  x-api-slug: actiondeleteeventsourcemapping-get
+  description: Removes an event source mapping.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Remove Permission
+  x-api-slug: actionremovepermission-get
+  description: You can remove individual permissions from an resource policy associated
+    with a Lambda function by providing a statement ID that you provided when you
+    added the permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/aws-lambda/actionremovepermission-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.kinesis.analytics.api.gallery.streamdata.io

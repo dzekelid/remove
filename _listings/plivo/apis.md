@@ -7,11 +7,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codenvy Account API - Delete Account Subscriptions Subscriptionid
+  x-api-slug: accountsubscriptionssubscriptionid-delete
+  description: 'Remove subscription from account. Roles: account/owner, system/admin.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plivo/accountsubscriptionssubscriptionid-delete-openapi.md
+- name: Codenvy Account API - Delete Account
+  x-api-slug: accountid-delete
+  description: Remove subscription from account. JSON with subscription details is
+    sent. Can be performed only by system/admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plivo/accountid-delete-openapi.md
+- name: Codenvy Account API - Delete Account Attribute
+  x-api-slug: accountidattribute-delete
+  description: Remove attribute from an account. Attribute name is used as a quary
+    parameter. For this API request account/owner, system/admin or system/manager
+    role is required
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plivo/accountidattribute-delete-openapi.md
+- name: Codenvy Account API - Delete Account Members User
+  x-api-slug: accountidmembersuserid-delete
+  description: Remove user from a specific account. This API call requires account/owner,
+    system/admin or system/manager role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plivo/accountidmembersuserid-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/

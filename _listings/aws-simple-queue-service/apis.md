@@ -14,11 +14,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/aws-simple-queue-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Simple Queue Service API - Remove Permission
+  x-api-slug: actionremovepermission-get
+  description: Revokes any permissions in the queue policy that matches the specified
+    Label parameter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
+  humanURL: https://aws.amazon.com/sqs/
+  baseURL: :///
+  tags: Amazon Web Services, Jobs, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/aws-simple-queue-service/actionremovepermission-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.simple.notification.service.api.gallery.streamdata.io

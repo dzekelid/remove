@@ -11,11 +11,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
+- name: plentymarkets REST-API - Remove a bundle component
+  x-api-slug: restitemsidvariationsvariationidvariation-bundlesbundleid-delete
+  description: Removes a component from a bundle. The bundle ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-bundlesbundleid-delete-openapi.md
+- name: plentymarkets REST-API - Remove a category from a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-categoriescatid-delete
+  description: Deletes the link between a category and a variation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-categoriescatid-delete-openapi.md
 - name: plentymarkets REST-API - Remove a plugin from a set
   x-api-slug: restplugin-setssetidpluginspluginid-delete
   description: |-

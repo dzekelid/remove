@@ -10,11 +10,27 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Remove
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/ship-station/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ship Station Developer Portal - Remove Tag from Order
+  x-api-slug: ordersremovetag-post
+  description: |-
+    Removes a tag from the specified order.  The body of this request has the following attributes:
+
+    Name               |Data Type          |Description
+    -------------------|-------------------|-------------------
+    ``orderId`` | number, required | Identifies the order whose tag will be removed.
+    ``tagId`` | number, required | Identifies the tag to remove.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remove/master/_listings/ship-station/ordersremovetag-post-openapi.md
 x-common:
 - type: x-website
   url: http://bit.ly/_ShipStation
